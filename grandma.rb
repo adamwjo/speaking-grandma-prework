@@ -23,5 +23,6 @@ def speak_to_grandma(message)
       grandma_cant_hear = "HUH?! SPEAK UP, SONNY!"
       grandma_cant_hear
     end
+    grandma_cant_hear
   end
 end
