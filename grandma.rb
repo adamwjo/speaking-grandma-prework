@@ -15,5 +15,13 @@ def speak_to_grandma(message)
   if message == "I LOVE YOU GRANDMA!"
     new_message = "I LOVE YOU TOO PUMPKIN!"
     new_message
+  elsif message == message.upcase
+    grandma_yells = "NO, NOT SINCE 1938!"
+    grandma_yells
+  else
+    if message == message.downcase
+      grandma_cant_hear = "HUH?! SPEAK UP, SONNY!"
+      grandma_cant_hear
+    end
   end
 end
