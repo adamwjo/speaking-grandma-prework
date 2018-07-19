@@ -19,7 +19,7 @@ def speak_to_grandma(message)
     grandma_yells = "NO, NOT SINCE 1938!"
     grandma_yells
   else
-    if message == message.downcase
+    if message !== message.upcase
       grandma_cant_hear = "HUH?! SPEAK UP, SONNY!"
     end
     grandma_cant_hear
