@@ -21,7 +21,6 @@ def speak_to_grandma(message)
   else
     if message == message.downcase
       grandma_cant_hear = "HUH?! SPEAK UP, SONNY!"
-      grandma_cant_hear
     end
     grandma_cant_hear
   end
